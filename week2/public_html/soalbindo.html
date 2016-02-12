@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Try Out SD</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link href='gambar/topi.gif' rel='shortcut icon'>
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/home.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			
+			<!--LOGO-->
+			<img src="gambar/tryout-hal2.gif" title="Try Out SD"><br class="enterlogo" />
+			<span id="menugaris"><img src="gambar/menugaris.gif"  /></span>
+			<br class="enterlogo" /><br class="enterlogo" /><br class="enterlogo" /><br class="enterlogo" />
+
+			
+			<!-- MENU -->
+			<nav id="navigasi"><ul>
+
+				<!-- HOME-->
+				<li>
+					<a href="home.html"><img id="lghome" src="gambar/homelg.png" title="Home"></a><a id="thome" href="home.html">HOME</a>
+				</li><br class="enterlogo" />
+				<!-- MAPEL-->
+				<li><span class="lgcucuksamping"><img class="lgcucuksamping" src="gambar/cucuksamping.gif"></span>
+				<a id="tmapel" href="#">MAPEL</a><span class="lgcucuk"><img class="lgcucuk" src="gambar/cucuk.gif" title="Mapel"></span>
+			 		<ul id="dropdown">
+ 						<li><a href="mapelbindo.html">Bahasa Indonesia</a></li>
+						<li><a href="#">Matematika</a></li>
+						<li><a href="#">Ilmu Pengetahuan Alam</a></li>
+		    		</ul>
+				</li><br class="enterlogo" />
+				<!--HASIL-->
+				<li><a href="score.html"><img id="lghasil" src="gambar/hasillg.gif"></a><a id="thasil" href="score.html">HASIL</a></li><br class="enterlogo" />
+				
+				<!--SEARCH-->
+				<span id="search_kabeh">
+					<img id="lgsearch" src="gambar/search.gif" title="search">
+					<form method="get" id="search" action="#">
+						<input type="text" id="isearch" placeholder="Search" />
+					</form>
+				</span>
+
+				<!--ACCOUNT-->
+				<li id="useratas"><img id="lgaccount" src="gambar/user.gif" title="Lgaccount"> <h2 id="username"><?php echo $username; ?>Yeru 		Mikasssssssss </h2><img id="lgcucuk1" src="gambar/cucuk.gif" title="cucuk">
+					<ul>
+ 						<li><a href="index.html">Keluar</a></li>
+		    		</ul>
+				</li>
+				</ul>	
+			</nav>
+		</div>
+		
+		
+		
+		<div id="content"><br>
+		<div id="deskripsi">
+		<h3 id="namapel">Bahasa Indonesia - Soal Tahun 2010</h3><hr>
+			<div id="">
+				<span id="ingat">! Ingat kerjakan dengan jujur !</span><br/><br/>
+				<h5>Pilih salah satu jawaban yang menurut anda benar!</h4>
+				<ol><p id="bacaan">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspKerajaan Tanah Sumedang diperintah 		   raja yang adil dan bijaksana. Sang Raja
+					   mempunyai seorang anak bernama Putri Arum. Suatu ketika Putri Anrm mengidap
+					   penyakit kulit yang menjijikkan. Raja mengadakan sayembara. Siapa
+					   dapat.menyembuhkan Putri Arum jika laki-laki akan dijodohkan, jika perempuan akan
+					   dijadikan saudara.<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					   Bujang Trindil pembantu setia Dang Anggana mengikuti sayembara. Ia segera
+					   pergi mencari obat. Ia berjalan mendaki gunung tinggi dan menjelajah hutan belantara.
+					   Karena lelah, ia tertidur di bawah pohon rindang dan bermimpi. Dalam mimpi itu, ia
+					   disuruh membuat sumur. Sumur itu akan mengeluarkan air panas sebagai sarana
+	  				   menyembuhkan Putri Arum. Ketika terbangun, Bujang Trindil segera melakukan seperti
+					   dalam mimpinya. Keajaiban terjadi. Setelah Putri Arum mandi dengan air sumur itu,
+					   penyakit kulitnya lenyap.<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					   Akhirnya, Bujang Trindil mendapatkan hadiah. Namun, hadiah itu ia serahkan
+					   kepada tuannya, Dang Anggana. Menikahlah Dang Anggana dengan Sang Putri Arum.
+					   Bujang Trindil merasa lega dan bahagia</p>
+					<li>Latar tempat cerita di atas adalah ....<br/>
+						<input type="radio" name="jawab" value="hutan belantara">hutan belantara</input><br>
+						<input type="radio" name="jawab" value="gunung tinggr">gunung tinggr</input><br> 
+						<input type="radio" name="jawab" value="di bawah pohon rindang">di bawah pohon rindang</input><br> 
+						<input type="radio" name="jawab" value="Kerajaan Tanah Sumedang">Kerajaan Tanah Sumedang</input>
+					</li><br/>
+					
+					<li>Watak Bujang Trindil dalam bacaan tersebut adalah ....<br/>
+						<input type="radio" name="jawab" value="penyabar dan pekerja keras">penyabar dan pekerja keras</input><br>
+						<input type="radio" name="jawab" value="setia dan rela berkorban">setia dan rela berkorban</input><br>
+						<input type="radio" name="jawab" value="penyayang dan penurut">penyayang dan penurut</input><br> 
+						<input type="radio" name="jawab" value="bekerja keras dan penurut">bekerja keras dan penurut</input>
+					</li><br/>
+					
+					<li>Amanat yang terkandung dalam cerita tersebut yaitu ...<br/>
+						<input type="radio" name="jawab" value="Menolong harus dilakukan tanpa pamrih.">Menolong harus dilakukan tanpa pamrih.</input><br>
+						<input type="radio" name="jawab" value="Berjuanglah selagi mampu melakukan.">Berjuanglah selagi mampu melakukan.</input><br> 
+						<input type="radio" name="jawab" value="Berilah pertolongan kepada yang membutuhkan.">Berilah pertolongan kepada yang membutuhkan.</input><br> 
+						<input type="radio" name="jawab" value="Orang sakit harus diberi pertolongan.">Orang sakit harus diberi pertolongan.</input><br>
+					</li><br/>
+					
+					<li>Blablablablablabla..................................<br/>
+						<input type="radio" name="jawab" value="blabla">Blabla</input><br> 
+						<input type="radio" name="jawab" value="blabla">Blabla</input><br> 
+						<input type="radio" name="jawab" value="blabla">Blabla</input><br>
+						<input type="radio" name="jawab" value="blabla">Blabla</input>
+					</li><br/>
+					
+					<li>Blablablablablabla..................................<br/>
+						<input type="radio" name="jawab" value="blabla">Blabla</input><br>
+						<input type="radio" name="jawab" value="blabla">Blabla</input><br> 
+						<input type="radio" name="jawab" value="blabla">Blabla</input><br> 
+						<input type="radio" name="jawab" value="blabla">Blabla</input>
+					</li><br/><br/><br/>
+				</ol>
+			</div>
+			</div>
+		</div>
+			
+	
+		<div id="footer">
+			<span>created By Cah SD</span>
+		</div>
+	</div>
+</body>
+</html>

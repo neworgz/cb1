@@ -1,0 +1,216 @@
+.tab{
+	padding: 0 115px;
+}
+
+body{
+	margin: 0px;
+	 -webkit-background-size: contain;
+     -moz-background-size: contain;
+     -o-background-size: contain;
+     background-size: contain;
+}
+button{
+	background-color: #fe5b5f;
+	border-color: #fe5b5f;
+	color: white;
+	margin-top: 5px;
+}
+#register button{
+	width: 215px;
+	height: 30px;
+	font-size: 20px;
+	background-color: green;
+	border-color: green;
+
+}
+
+#wrapper{
+	/*border: 2px solid black;*/
+	margin: 0px;
+	/*
+	width: inherit;
+	height: auto;
+	*/
+	max-width: 1347px;
+	height: auto;
+}
+}
+
+#mendaftar{
+	padding-right: 72px;
+}
+
+#header{
+	background-color: #C10004;
+	width: inherit;
+	height: 90px;
+	margin: auto;
+	
+}
+
+#header img{
+	display: inline;
+	float: left;
+}
+
+#content{
+	background-color: transparent;
+	width: 1350px;
+	height: 639px;
+	margin: auto;
+	background-image: url("../gambar/bgfix.gif");
+	background-repeat: no-repeat;
+	
+	
+}
+
+#footer{
+	height: 10px; /*81*/
+	background-color: white;
+}
+#flogin{
+	display: inline;
+	float: right;
+	padding-right: 50px;
+	padding-top: 15px;
+}
+#regpass,#regphone{
+	margin: 10px;
+}
+
+#mendaftar{
+	color: white;
+}
+
+label{
+	color: white;
+}
+#register{
+	color: white;
+	text-align: right;
+	padding-right: 50px;
+}
+
+h3{
+	font-size: 20px;
+	padding-right: 78px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+select{
+	width: 213px;
+	margin-top: 0px;
+	margin-right: 4px;
+}
+
+#bocah{
+	width: 500px;
+	height: 350px;
+	padding-top: 0px;
+	padding-left: 300px;
+	padding-bottom: 0px;
+	margin: 0px;
+	background-color: transparent;
+	position: inherit;
+	display: inline;
+}
+
+#register input[type=text] {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#register input[type=password] {
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.enter{
+	display: none;
+}
+
+.enter3{
+		display: none;
+}
+
+@media screen and (max-width: 1347px) {
+	
+	#wrapper {
+		width: 100%;
+	}
+	#content {
+		width: 100%;
+	}
+	#register {
+		width: 40%;
+		float: right;
+	}
+	
+}
+
+@media screen and (max-width: 834px) {
+	
+	#header, 
+	#footer{
+		text-align: center;
+	}
+	#content {
+		width: auto;
+		float: none;
+	}
+	#flogin{
+		float: left;
+	}	
+	
+	#register {
+		width: auto;
+		float: right;
+	}
+
+	#bocah{
+		display: none;
+	}
+
+
+
+}
+
+@media screen and (max-width: 792px) {
+
+	#register{
+		float: left;
+	}
+
+
+}
+
+@media screen and (max-width: 460px) {
+	
+	.enter{
+		display: inline;
+	}
+	
+
+}
+
+@media screen and (max-width: 399px) {
+	
+	.topi{
+		width: 250px;
+	}
+	.enter3{
+		display: inline;
+	}
+	#flogin{
+		float: center;
+	}
+
+}
+
